@@ -1,30 +1,17 @@
----
-
 ### **1. Introduction**
 
+- **Problem Statement**
 
+  Breast cancer remains a significant global health challenge. Early and accurate diagnosis is essential for improving survival rates and reducing treatment costs. This project aims to classify tumors as malignant or benign using machine learning, focusing on reducing false negatives to ensure timely medical interventions.
 
+- **Dataset Description**
 
-   - **Problem Statement**  
-   
-   
-     Breast cancer remains a significant global health challenge. Early and accurate diagnosis is essential for improving survival rates and reducing treatment costs. This project aims to classify tumors as malignant or benign using machine learning, focusing on reducing false negatives to ensure timely medical interventions.
-     
-     
-     
-     
-   - **Dataset Description** 
-   
-   
-     The dataset used in this project contains clinical features recorded during tumor assessments, such as radius, texture, perimeter, and area. Each sample is labeled as malignant (1) or benign (0), representing the target variable.  
-     
-     Source: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic 
-     
-     
-     
-   - **Clinical Significance**  
-     Misclassifying a malignant tumor as benign (false negative) can delay critical treatment, potentially leading to fatal outcomes. Thus, this study prioritizes recall for malignant tumors, ensuring no cases are missed.
+  The dataset used in this project contains clinical features recorded during tumor assessments, such as radius, texture, perimeter, and area. Each sample is labeled as malignant (1) or benign (0), representing the target variable.
 
+  Source: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+
+- **Clinical Significance**  
+  Misclassifying a malignant tumor as benign (false negative) can delay critical treatment, potentially leading to fatal outcomes. Thus, this study prioritizes recall for malignant tumors, ensuring no cases are missed.
 
 ---
 
